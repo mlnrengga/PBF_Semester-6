@@ -1,9 +1,13 @@
+import syles from './navbar.module.css';
+
 const Navbar = () => {
-    return (
-        <div className="">
-            <div style={{ backgroundColor: '#000', padding: '10px', color: '#fff' }}>Navbar Component</div>
-        </div>
-    );
+  return (
+    <div className={syles.navbar}>
+      <div className='big'>
+        <h1>Navbar Component</h1>
+      </div>
+    </div>
+  );
 };
 
 export default Navbar;
